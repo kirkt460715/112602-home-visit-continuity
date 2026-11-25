@@ -1,0 +1,53 @@
+[
+  {
+    "sequence": 1,
+    "at": 40,
+    "source": "field",
+    "facts": {
+      "task": "diagnostic",
+      "done": true,
+      "result": "different_adapter"
+    }
+  },
+  {
+    "sequence": 2,
+    "at": 43,
+    "source": "field",
+    "facts": {
+      "asset": "kit-4",
+      "action": "loaned",
+      "receipt": "f-4"
+    }
+  },
+  {
+    "sequence": 3,
+    "at": 54,
+    "source": "resident",
+    "facts": {
+      "delegate": "family-1",
+      "retain": [
+        "schedule"
+      ]
+    }
+  },
+  {
+    "sequence": 4,
+    "at": 65,
+    "source": "resident",
+    "facts": {
+      "cancel": [
+        "replace"
+      ]
+    }
+  },
+  {
+    "sequence": 5,
+    "at": 68,
+    "source": "partner",
+    "facts": {
+      "operation": "diagnostic",
+      "occurred_at": 40,
+      "accepted": true
+    }
+  }
+]

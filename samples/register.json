@@ -1,0 +1,68 @@
+{
+  "register": {
+    "visit": "svc-11",
+    "resident": "r-7",
+    "delegate": {
+      "who": "family-1",
+      "allow": [
+        "schedule",
+        "progress"
+      ],
+      "effective": [
+        0,
+        240
+      ]
+    },
+    "waiver": {
+      "visit": true,
+      "consumables": false
+    },
+    "tasks": {
+      "diagnostic": {
+        "escort": false
+      },
+      "replace": {
+        "escort": "friend-1",
+        "support": "sign"
+      },
+      "loan-kit": {
+        "asset_class": "large-key"
+      }
+    },
+    "kit": {
+      "id": "kit-4",
+      "holder": "warehouse"
+    },
+    "shifts": [
+      {
+        "id": "am",
+        "time": [
+          30,
+          60
+        ],
+        "crew": "p-1",
+        "assets": [
+          "kit-4"
+        ]
+      },
+      {
+        "id": "pm",
+        "time": [
+          180,
+          210
+        ],
+        "crew": "p-2",
+        "support": "sign"
+      },
+      {
+        "id": "other",
+        "time": [
+          185,
+          205
+        ],
+        "support": "sign",
+        "committed_to": "svc-19"
+      }
+    ]
+  }
+}

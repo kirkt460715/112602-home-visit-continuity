@@ -1,0 +1,23 @@
+[
+  {
+    "action": "dispatch-receipt",
+    "desk": "field-order",
+    "ref": "f-4",
+    "delayed": true,
+    "evidence": {
+      "asset": "kit-4",
+      "state": "left_with_resident",
+      "issued_at": 43
+    }
+  },
+  {
+    "action": "fee-rule",
+    "desk": "billing",
+    "ref": "svc-11",
+    "delayed": false,
+    "evidence": {
+      "visit_fee_cents": 0,
+      "includes_parts": false
+    }
+  }
+]
